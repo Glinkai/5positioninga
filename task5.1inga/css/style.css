@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+header,
+footer {
+    background-color: aquamarine;
+    padding: 50px 0;
+}
+
+main {
+    padding: 170px 0 50px 0;
+}
+
+header {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+li {
+    display: inline-block;
+}
+
+.service {
+    background-color: rgba(165, 42, 42, 0.575);
+    color: white;
+    padding: 20px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+.service a {
+    color: white;
+}
+
+.team {
+    background-color: rgba(255, 255, 0, 0.733);
+    padding: 20px;
+    /*position: relative;*/
+}
+
+.pic {
+    position: absolute;
+    /* top: 30px;
+    left: 50px;*/
+    right: 0;
+    top: 0;
+}
+
+.callme {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 0;
+}
+
+.popup {
+    position: fixed;
+    width: 400px;
+    padding: 20px;
+    background-color: yellow;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 10px black;
+}
+
+.close {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+}
