@@ -37,7 +37,7 @@ body {
     position: absolute;
     width: 468px;
     height: 216.74px;
-    top: 554px;
+    top: 450px;
     right: -100px;
     z-index: -1;
 }
@@ -45,8 +45,9 @@ body {
 .blue {
     color: white;
     font-family: 'Play', sans-serif;
-    padding: 99px 79px 0 78px;
+    padding: 99px 79px 176px 78px;
     position: relative;
+    z-index: 0;
 }
 
 h1 {
@@ -71,10 +72,6 @@ h2 {
     line-height: 37px;
     padding-top: 36px;
     padding-bottom: 51px;
-}
-
-.bird {
-    padding-bottom: 396px;
 }
 
 .grass {
