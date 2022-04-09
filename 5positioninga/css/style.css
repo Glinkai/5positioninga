@@ -21,7 +21,7 @@ body {
     background-color: rgba(14, 74, 126, 0.7);
     position: relative;
     top: 104px;
-    z-index: 0;
+    z-index: 2;
 }
 
 .group2 {
@@ -30,7 +30,7 @@ body {
     height: 140px;
     right: 150px;
     top: 45px;
-    z-index: 1;
+    z-index: 3;
 }
 
 .group3 {
@@ -39,7 +39,7 @@ body {
     height: 157.79px;
     left: 101px;
     top: 283px;
-    z-index: -1;
+    z-index: 1;
 }
 
 .group4 {
@@ -48,7 +48,7 @@ body {
     height: 216.74px;
     top: 554px;
     right: 100px;
-    z-index: -1;
+    z-index: 1;
 }
 
 h1 {
@@ -81,4 +81,5 @@ h2 {
     width: 100%;
     position: fixed;
     bottom: 0;
+    z-index: 3;
 }
